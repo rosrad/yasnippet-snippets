@@ -1,8 +1,8 @@
 # -*- mode: snippet -*-
-# name: func main
-# key: main
+# name: example
+# key: example
 # contributor : @atotto
 # --
-func main() {
+func Example$1() {
 	$0
 }

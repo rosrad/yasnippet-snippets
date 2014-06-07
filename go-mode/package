@@ -1,8 +1,8 @@
 # -*- mode: snippet -*-
-# name: func main
-# key: main
+# name: package
+# key: pack
 # contributor : @atotto
 # --
-func main() {
-	$0
-}
+// 
+package ${1:main}
+

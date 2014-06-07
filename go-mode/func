@@ -1,7 +1,9 @@
 # -*- mode: snippet -*-
-# name: func
+# name: func append
 # key: func
+# contributor : @atotto
 # --
-func ${1:fun}(${2:args}) {
-$0
+//
+func ($2) $1() {
+	$0
 }

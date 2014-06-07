@@ -1,8 +1,8 @@
 # -*- mode: snippet -*-
-# name: func main
-# key: main
+# name: interface
+# key: type
 # contributor : @atotto
 # --
-func main() {
+type $1 interface {
 	$0
 }

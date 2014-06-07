@@ -1,8 +1,10 @@
 # -*- mode: snippet -*-
-# name: switch
+# name: for switch
 # key: switch
+# contributor : @atotto
 # --
-switch {
-    case ${1:cond}:
-         $0
+switch $1 {
+	case $2:
+		$0
+	default:
 }

@@ -1,6 +1,7 @@
 # -*- mode: snippet -*-
-# name: printf
-# key: pr
+# name: print
+# key: printf
+# contributor : @atotto
 # --
-fmt.Printf("${1:fmt}\n"${2:,str})
-$0
+fmt.Printf("$0\n",$1)
+

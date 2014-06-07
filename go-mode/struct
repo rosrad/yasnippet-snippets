@@ -1,8 +1,8 @@
 # -*- mode: snippet -*-
-# name: func main
-# key: main
+# name: struct
+# key: type
 # contributor : @atotto
 # --
-func main() {
+type $1 struct {
 	$0
 }

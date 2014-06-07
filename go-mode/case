@@ -1,8 +1,8 @@
 # -*- mode: snippet -*-
-# name: func main
-# key: main
+# name: for switch case
+# key: case
 # contributor : @atotto
 # --
-func main() {
+case $1:
 	$0
-}
+

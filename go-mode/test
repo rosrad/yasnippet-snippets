@@ -1,8 +1,8 @@
 # -*- mode: snippet -*-
-# name: func main
-# key: main
+# name: test
+# key: test
 # contributor : @atotto
 # --
-func main() {
+func Test$1(t *testing.T) {
 	$0
 }
