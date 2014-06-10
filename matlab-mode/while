@@ -1,8 +1,7 @@
 # -*- mode: snippet -*-
 # name: while
 # key: while
-# expand-env: ((yas/indent-line 'fixed) (yas/wrap-around-region 'nil))
 # --
-while ${1:expression}
-  $0
-end 
+while (${1:var} ${2:==} ${3:expr})
+    $0
+end

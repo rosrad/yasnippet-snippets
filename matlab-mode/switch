@@ -1,6 +1,5 @@
 # -*- mode: snippet -*-
 # name: switch
-# expand-env: ((yas/indent-line 'fixed) (yas/wrap-around-region 'nil))
 # --
 switch ${1:expression}
     case ${2:case_expression}
